@@ -3,7 +3,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 5px;
   font: normal small-caps normal 16px/1.4 Courier;
 }
 
@@ -12,6 +12,7 @@ h1 {
   font-size: 40px;
   letter-spacing: 2px;
   margin-bottom: 0pc;
+  color: white;
 }
 
 .headline {
@@ -31,30 +32,42 @@ h1 {
 
 input {
 margin-top: 10px;
-font: normal small-caps normal 18px/1.4 Courier;
+font: normal small-caps normal 18px/1.4 Arial;
 text-align: center;
+background:transparent;
+border: none;
+border-bottom: 2px solid white
 }
 
 .addoption {
   margin-top: 10px;
+  border: none;
 }
 
 .addoption:hover {
-  background-color: white;
+  color: #a48f8f;
 }
 
 .headline:hover {
-  color: white;
+  color: black;
+}
+
+.submit{
+  border: none;
+  padding: 20px
 }
 
 button {
-background-color: pink;
-border-radius: 30%;
-font: normal small-caps normal 16px/1.4 Courier
+display: inline-block;
+background-color: white;
+border-radius: 100%;
+font: normal small-caps normal 40px/1.4 Arial
+border: none;
+padding: 15px 32px;
 }
 
 body {
-    background-color: lightblue;
+    background-color: #a48f8f;
 }
 
 .resultSection {
@@ -65,4 +78,19 @@ body {
   font-size: 35px;
   color: black;
   font-family: Courier
+}
+
+input::placeholder{
+  color: white;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+
+textarea:focus, input:focus {
+    color: white;
 }
