@@ -22,6 +22,7 @@ h1 {
   margin: 20px 0px 80px 0px;
   width: 300px;
 }
+
 .inputs {
   width: inherit;
   display: flex;
@@ -54,4 +55,14 @@ font: normal small-caps normal 16px/1.4 Courier
 
 body {
     background-color: lightblue;
+}
+
+.resultSection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: black;
+  font-family: Courier
 }
