@@ -36,11 +36,13 @@ font: normal small-caps normal 18px/1.4 Arial;
 text-align: center;
 background:transparent;
 border: none;
-border-bottom: 2px solid white
+border-bottom: 2px solid white;
+color: white;
 }
 
 .addoption {
   margin-top: 10px;
+  outline: none;
   border: none;
 }
 
@@ -64,6 +66,7 @@ border-radius: 100%;
 font: normal small-caps normal 40px/1.4 Arial
 border: none;
 padding: 15px 32px;
+outline: none;
 }
 
 body {
@@ -76,7 +79,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 35px;
-  color: black;
+  color: white;
   font-family: Courier
 }
 
